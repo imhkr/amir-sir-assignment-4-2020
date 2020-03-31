@@ -1,0 +1,8 @@
+q="de"
+l=[]
+s=set(input().split())
+for i in s:
+        x=i.startswith(q)
+        if x==True:
+           l.append(i)
+print(l)
